@@ -1,3 +1,5 @@
+from bs4 import BeautifulSoup
+
 def parseRecipe(url):
     """
     Parse a recipe from http://www.bbc.co.uk/food.

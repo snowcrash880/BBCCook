@@ -3,6 +3,10 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
 
+from numpy import sqrt
+from math import log
+
+
 def processRecipe(path):
     """
     Stopword removal, normalization, stemmings.
@@ -20,7 +24,7 @@ def processRecipe(path):
 
     return l
 
-# Term frequency in document
+
 def tf(path):
     '''Compute the term frequency of a word in a document as
     the number of the term appear in the document divided the total

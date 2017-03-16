@@ -1,9 +1,5 @@
 import os, re
-from bs4 import BeautifulSoup
 import pandas as pd
-
-from numpy import sqrt
-from math import log
 
 
 ## Load Index and vocabulary
